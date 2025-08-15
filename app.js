@@ -3,10 +3,10 @@ const ticketRoutes = require('./routes/ticketRoutes');
 
 const app = express();
 
-// Middleware to parse JSON bodies
+// Middleware pour analyser les corps JSON
 app.use(express.json());
 
-// Define ticket routes
+// Définir les routes de tickets
 app.use('/api/tickets', ticketRoutes);
 
 module.exports = app;
