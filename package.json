@@ -1,0 +1,19 @@
+{
+  "name": "suivi-des-tickets-erp",
+  "version": "1.0.0",
+  "description": "Un système de suivi de tickets intégrant un ERP basé sur le cloud pour gérer les demandes des utilisateurs.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "nodemailer": "^6.4.11",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
