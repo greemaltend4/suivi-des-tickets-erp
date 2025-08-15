@@ -6,6 +6,7 @@ const app = express();
 // Middleware to parse JSON bodies
 app.use(express.json());
 
+// Define ticket routes
 app.use('/api/tickets', ticketRoutes);
 
 module.exports = app;
